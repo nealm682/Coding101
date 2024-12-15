@@ -1,0 +1,6 @@
+# Ignore node_modules and Python virtual environments
+node_modules/
+venv/
+.env
+*.log
+*.pyc
