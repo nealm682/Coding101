@@ -6,7 +6,7 @@ Set openai API key:
     Set virtual environment: python -m venv venv
     Activate virtual environment: Mac: source venv/bin/activate    Windows: cd venv\Scripts\activate
     Install OpenAI: pip install openai
-    CLI - set key for Windows: setx OPENAI_API_KEY "your_api_key_here"
+    CLI - set key for Windows: set OPENAI_API_KEY=your_api_key_here
     CLI - set key for MAC: export OPENAI_API_KEY="your_api_key_here"
     CLI - run: MAC: python3 openai_embeddings.py   WINDOWS: python openai_embeddings.py
 

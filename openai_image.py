@@ -6,7 +6,7 @@ Set openai API key:
     Set virtual environment: python -m venv venv
     Activate virtual environment: Mac: source venv/bin/activate    Windows: cd venv\Scripts\activate
     Install OpenAI: pip install openai
-    CLI Windows: setx OPENAI_API_KEY "your_api_key_here"
+    CLI Windows: set OPENAI_API_KEY=your_api_key_here
     CLI MAC: export OPENAI_API_KEY="your_api_key_here"
     RUN: MAC: python3 openai_image.py   WINDOWS: python openai_image.py
 
@@ -22,3 +22,4 @@ response = client.images.generate(
 )
 
 print(response.data[0].url)
+
